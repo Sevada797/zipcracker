@@ -16,8 +16,6 @@ return implode("", array_reverse($arr));
 $chars=getenv('chars');
 $length=getenv('len');
 $file=getenv('fname');
-//echo "chars is " . $chars;
-//echo "length is " . $length;
 $longtxt="000000000000000000000000000000";
 $zeros=$longtxt;
 $text=substr($longtxt, 0, $length);
@@ -47,21 +45,5 @@ $d++;
 }
 
 }
-//9=chars length=$x
-//3txt length
-/*for(i in range(9**3)):
-
-If (i<(3+1)) {
-txt[i%3]=chars[0];
-}
-else {
-mynum=substr(zeros, 0, 3-string((i-3)/3).length)+string((i-3)/3)
-mynum=explode("", mynum)
-txt[i%3]= chars[mynum[i%3]]
-*/
-
-//y=textlen=3
-//x=chars=2, d1=0,d2=3, d3=6
-//           i1=0 i2=1 i2=2
 
 ?>
