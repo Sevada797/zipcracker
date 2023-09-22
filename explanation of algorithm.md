@@ -86,7 +86,7 @@ Yes we came to the hard part, how to generate each possible combination.
 ```
 COMBINATIONS FOR chars=a,b && length=3:
 aaa, aab, aba, abb, baa, bab, bba, bbb
-BINARY for number 1, 2, 3, 4 ... 8
+BINARY for numbers 1, 2, 3, 4 ... 8
 000, 001, 010, 011, 100, 101, 110, 111
 ```
 <b>Wait what? this is actually really cool!!</b><br>
