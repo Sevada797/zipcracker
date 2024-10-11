@@ -1,4 +1,8 @@
 <?php
+
+// This is first implementention of function I just keep this for me
+// The program will use passgen.php, don't mind this file, it doesn't do anything
+
 //basex function
 function algo0($k, $x) {
 $arr=[];
